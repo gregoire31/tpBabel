@@ -1,0 +1,105 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+
+}
+
+/* Portrait layout (default) */
+body{
+    background:url(../img/fondE.jpeg); /* 170px x 200px */
+    /* position in the center of the screen */
+
+    height:100%;                  /* text area height */
+    width:100%;
+}
+
+.btn {
+
+    background: #a2a84a;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    margin-top: 50px;
+    margin-left: 40%;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    outline: none;
+}
+#resultat{
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    color:white;
+
+}
+#resultatTraduit{
+
+    text-align: center;
+    margin-top: 200px;
+    color:white;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 110px;
+    overflow-x: hidden;
+}
+#rectification{
+    margin-top: 10%;
+}
+.select-style {
+    background: white;
+    color: #23527c;
+    margin-top: 340px;
+    margin-left: 100px;
+    border: 2px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}

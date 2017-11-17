@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!--
+    Customize this policy to fit your own app's needs. For more guidance, see:
+        https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+    Some notes:
+        * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+        * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+        * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+            * Enable inline JS: add 'unsafe-inline' to default-src
+    -->
+    
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <title>Babbel</title>
+</head>
+<body>
+<div class="app">
+
+    <div id="deviceready" class="blink">
+
+
+        <button id="start" class="btn event listening event received"> Parlez </button>
+        <center><div id="resultat"></div></center>
+
+        <div class="select-style">
+            <select id ="select">
+                <option value="en">Anglais</option>
+                <option value="es">Espagnol</option>
+                <option value="sv">Suedois</option>
+                <option value="ru">Russe</option>
+                <option value="it">Italien</option>
+                <option value="nl">Allemand</option>
+                <option value="pt">Portugais</option>
+            </select>
+        </div>
+
+
+
+        <!--<center><div id="rectification">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="text">Choix langues<span class="caret"></span></a>
+                <ul class="dropdown-menu scrollable-menu" role="menu">
+
+                    <li><a href="#">Anglais</a></li>
+                    <li><a href="#">Français</a></li>
+                    <li><a href="#">Espagnol</a></li>
+                    <li><a href="#">Russe</a></li>
+                    <li><a href="#">Suedois</a></li>
+                    <li><a href="#">Italien</a></li>
+                    <li><a href="#">Allemand</a></li>
+                    <li><a href="#">Polonais</a></li>
+                    <li><a href="#">Portugais</a></li>
+                    <li><a href="#">Chinois</a></li>
+                    <li><a href="#">Korean</a></li>
+                    <li><a href="#">Americain</a></li>
+
+                </ul>
+
+            </li>
+        </div></center>-->
+
+
+
+    </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+
+
+</body>
+</html>
